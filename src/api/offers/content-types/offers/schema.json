@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "myoffers",
+  "info": {
+    "singularName": "offers",
+    "pluralName": "myoffers",
+    "displayName": "Offer"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Type": {
+      "type": "string",
+      "required": true
+    },
+    "Description": {
+      "type": "text",
+      "required": true
+    },
+    "Image": {
+      "type": "string",
+      "unique": true
+    }
+  }
+}
